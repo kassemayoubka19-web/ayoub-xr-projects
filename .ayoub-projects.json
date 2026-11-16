@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "app": "AYOUB-XR-PUBLISHER",
+  "projects": {
+    "engineering-demo": {
+      "title": "اختبار تصدير المشاريع — AYOUB XR",
+      "updatedAt": "2026-11-16T13:57:19.247Z",
+      "releaseId": "289ecf07-d83f-495a-a7c2-9aa446245373",
+      "files": [
+        "index.html",
+        ".nojekyll",
+        "project.json",
+        "report.json",
+        "README.txt",
+        "assets/client-preflight.js",
+        "assets/index-BiczBjbg.js",
+        "assets/index-BxBQdb0h.css",
+        "assets/workflow-v07.css",
+        "assets/ayoub-v09.css",
+        "assets/optimizer-panel.js",
+        "assets/client-white-label.js",
+        "assets/ayoub-v09.js",
+        "assets/xr-lighting-core.js",
+        "assets/hdr-parser.js",
+        "assets/photo3d-panel.css",
+        "assets/photo3d-panel.js",
+        "assets/publisher-panel.css",
+        "assets/publisher-panel.js",
+        "LICENSES.txt",
+        "model.glb",
+        "decoders/draco/draco_wasm_wrapper.js",
+        "decoders/draco/draco_decoder.wasm",
+        "decoders/draco/LICENSE.txt",
+        "release.json"
+      ]
+    }
+  }
+}

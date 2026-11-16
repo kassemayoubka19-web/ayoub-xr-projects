@@ -1,0 +1,61 @@
+/* AYOUB XR 0.7 — controlled visual refresh for authoring, not customer white label */
+:root{--accent:#58d8d2;--line:#253b51;--muted:#98b0c4}
+body:not(.viewer-mode){background:#08111c;color:#edf6ff}
+body:not(.viewer-mode) .topbar{height:78px;background:linear-gradient(110deg,#091726 0%,#10263c 65%,#0e2234 100%);border-bottom:1px solid #2d4c60;box-shadow:0 6px 26px #010a143b;padding:0 24px}
+body:not(.viewer-mode) .topbar .brandmark{font-family:system-ui,sans-serif;color:#b5f3ef;font-weight:900;font-size:32px;border-right:2px solid #d8a66a;padding-right:14px;text-shadow:0 0 22px #42c9df20}
+body:not(.viewer-mode) .topbar .brand strong{font-size:17px;font-weight:800;letter-spacing:2.5px;color:#e6f8ff}
+body:not(.viewer-mode) .topbar .brand strong b{font-size:10px;letter-spacing:2px;color:#6be1dd}
+body:not(.viewer-mode) .brand small{font-size:10px;color:#9cb3c9}
+body:not(.viewer-mode) .version{border:1px solid #315067;color:#c0d4e4;padding:6px 9px;border-radius:7px}
+body:not(.viewer-mode) .workspace{height:calc(100dvh - 78px)}
+body:not(.viewer-mode) aside{width:340px;background:linear-gradient(180deg,#102033,#0a1828 84%);border-left:1px solid #29445a}
+body:not(.viewer-mode) .project-head{padding:19px 21px 17px;background:linear-gradient(105deg,#142b40,#0e2134);border-bottom:1px solid #2f4960}
+body:not(.viewer-mode) .project-head h1{font-size:22px;font-weight:750;letter-spacing:-.2px;margin:5px 0}
+body:not(.viewer-mode) .tabs{overflow-x:auto;scrollbar-width:thin;scrollbar-color:#365872 transparent;padding:0 7px;flex-shrink:0}
+body:not(.viewer-mode) .tabs button{flex:1 0 auto;padding:12px 10px;font-size:11px;font-weight:650;border-radius:0;white-space:nowrap}
+body:not(.viewer-mode) .tabs button[aria-selected=true]{color:#9ef9ef;background:#172f42;box-shadow:inset 0 -3px #66e6d7}
+body:not(.viewer-mode) #stage{background:#9bb4c6}
+body:not(.viewer-mode) .toolbar{background:#0b1b2ff2;border:1px solid #37586e;box-shadow:0 14px 40px #0914224d;border-radius:14px}
+body:not(.viewer-mode) .toolbar button.active{background:#265b60;color:#d7fff5}
+body:not(.viewer-mode) .stage-top .scene-tag{background:#0c2437e0;border-color:#527489;color:#e4f7ff}
+body:not(.viewer-mode) button{transition:background-color .15s,border-color .15s,transform .12s}
+body:not(.viewer-mode) button:hover:not(:disabled){border-color:#74dcd2}
+body:not(.viewer-mode) .header-actions .primary{background:#64e5d3;color:#06242c;font-weight:750;box-shadow:0 3px 12px #37d0bf28}
+body:not(.viewer-mode) .xr-header-cta{background:#203c52;color:#d7fff5;border:1px solid #458f91;font-weight:750}
+body:not(.viewer-mode) .xr-brief-pane{padding:15px;overflow:auto;min-height:0;flex:1;scrollbar-width:thin;scrollbar-color:#355774 transparent}
+.xr-panel-hero{padding:18px 16px;border:1px solid #3c6373;border-radius:12px;background:radial-gradient(circle at left top,#1e4951 0%,#19354c 35%,#10243a 100%);position:relative}
+.xr-overline{font-size:9px;letter-spacing:2px;direction:ltr;display:block;text-align:right;color:#a8e9df;font-weight:750}
+.xr-panel-hero h2{font-size:19px;line-height:1.4;margin:9px 0 7px;color:#fff}
+.xr-panel-hero p{font-size:11px;color:#afc8da;line-height:1.8;margin:0}
+.xr-overview{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:13px 0}
+.xr-kpi{background:#122b3b;border:1px solid #32536b;border-radius:10px;padding:11px 12px;display:flex;flex-direction:column;gap:5px}
+.xr-kpi strong{font-size:20px;direction:ltr;text-align:right;color:#f0fafb;font-variant-numeric:tabular-nums}
+.xr-kpi small{color:#99b4c5;font-size:10px}
+.xr-readiness{font-size:11px;line-height:1.8;padding:11px 12px;border:1px solid #75653c;border-radius:9px;margin:9px 0 14px;background:#342f28;color:#ffe0a9}
+.xr-readiness.xr-ready{background:#123936;border-color:#34786c;color:#a8f2da}
+.xr-card{border:1px solid #31516a;background:#102134;border-radius:11px;margin:11px 0;overflow:hidden}
+.xr-card summary{font-size:12px;font-weight:760;padding:14px 13px;background:linear-gradient(90deg,#152d43,#132a3b);cursor:pointer;color:#e7f6ff}
+.xr-card[open] summary{border-bottom:1px solid #2e4b61}
+.xr-card-content{padding:12px 13px 17px}
+.xr-field{margin:11px 0;display:flex;flex-direction:column;gap:6px;font-size:11px;color:#a9c5d4}
+.xr-field input,.xr-field select,.xr-field textarea,.xr-sliders input{width:100%;background:#091a2a;border:1px solid #365268;border-radius:7px;color:#e8f6ff;padding:9px 10px;font-size:12px;resize:vertical}
+.xr-field textarea{min-height:72px}
+.xr-check{display:flex;align-items:flex-start;gap:9px;font-size:11px;color:#d0e2ec;line-height:1.7;margin:12px 0;flex-direction:row}
+.xr-check input{width:16px;height:16px;margin-top:2px;accent-color:#5bdacb;flex-shrink:0}
+.xr-button-row{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}
+.xr-button-row button{flex:1;font-size:10px;padding:9px 7px;white-space:normal}
+.xr-btn-primary{background:#26706b;border-color:#3cb2ab;color:white;font-weight:700}
+.xr-muted{font-size:11px;line-height:1.8;color:#a5bbce;margin:5px 0 11px}
+.xr-note{font-size:10px;line-height:1.8;color:#d1d8df;background:#1b3343;padding:8px 10px;border-right:2px solid #d6ad6d;border-radius:5px}
+.xr-issue{font-size:11px;line-height:1.8;border:1px solid #3c5467;border-radius:7px;background:#192c3b;padding:8px 10px;margin-bottom:6px;color:#bdd2e2}
+.xr-issue.xr-urgent{border-color:#906451;background:#392c2c;color:#f3c6b9}
+.xr-slider{display:grid;grid-template-columns:1fr auto;gap:6px;align-items:center;color:#a9bece;font-size:10px;margin:12px 0}
+.xr-slider input{grid-column:1/-1;padding:0}
+.xr-slider output{font-variant-numeric:tabular-nums;color:#9deddf}
+.xr-layer-item{font-size:11px;padding:6px 5px;border-bottom:1px solid #2b465b;color:#d5e6ee;overflow-wrap:anywhere}
+.xr-export-gate{background:#132a3a;border:1px solid #40627b;padding:13px;border-radius:9px;margin:14px 0}
+.xr-export-gate strong{color:#b9f7e8;font-size:12px}
+.xr-export-gate p{font-size:11px;margin:5px 0}
+body.viewer-mode #xrBriefPane,body.viewer-mode #xrBriefTab,body.viewer-mode .xr-header-cta{display:none!important}
+@media(max-width:1050px){body:not(.viewer-mode) aside{width:310px}body:not(.viewer-mode) .header-actions{gap:6px}body:not(.viewer-mode) .topbar{padding:0 13px}}
+@media(max-width:720px){body:not(.viewer-mode) .topbar{height:73px}body:not(.viewer-mode) .workspace{height:calc(100dvh - 73px)}body:not(.viewer-mode) aside{width:min(320px,95vw);top:73px}body:not(.viewer-mode) .xr-header-cta{font-size:10px;padding:8px 5px}}

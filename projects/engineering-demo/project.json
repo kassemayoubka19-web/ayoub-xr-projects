@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "title": "اختبار تصدير المشاريع — AYOUB XR",
+  "views": [
+    {
+      "name": "زاوية 1",
+      "state": {
+        "position": [
+          22.11484281849007,
+          15.922686829312854,
+          22.114842818490075
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "quaternion": [
+          -0.21552967261274514,
+          0.3721243445516334,
+          0.08927531349003207,
+          0.8983876395057517
+        ],
+        "mode": "orbit",
+        "fov": 42,
+        "appearance": "physical",
+        "aspect": 1.547212714893524,
+        "hidden": [
+          "n47"
+        ],
+        "clip": false,
+        "clipPercent": 55
+      }
+    }
+  ],
+  "state": {
+    "position": [
+      22.11484281849007,
+      15.922686829312854,
+      22.114842818490075
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ],
+    "quaternion": [
+      -0.21552967261274514,
+      0.3721243445516334,
+      0.08927531349003207,
+      0.8983876395057517
+    ],
+    "mode": "orbit",
+    "fov": 42,
+    "appearance": "physical",
+    "aspect": 1.547212714893524,
+    "hidden": [
+      "n47"
+    ],
+    "clip": false,
+    "clipPercent": 55
+  },
+  "enhancements": {
+    "version": 1,
+    "layers": {},
+    "environment": {
+      "preset": "day",
+      "altitude": 55,
+      "azimuth": 45,
+      "sunPower": 2.8,
+      "ambient": 1.4,
+      "exposure": 1,
+      "shadows": false,
+      "lights": false,
+      "ground": true
+    },
+    "navigation": {
+      "eyeHeight": 1.65,
+      "collision": true
+    },
+    "path": [],
+    "lights": []
+  },
+  "workflow": {
+    "version": 1,
+    "brief": {
+      "version": 1,
+      "projectName": "",
+      "targetEnvironment": "day"
+    },
+    "finishes": {}
+  },
+  "xrV09": {
+    "version": 1,
+    "preset": "daylight",
+    "exposure": 1.04,
+    "quality": "auto",
+    "hdri": null,
+    "background": false,
+    "fixtures": []
+  }
+}
