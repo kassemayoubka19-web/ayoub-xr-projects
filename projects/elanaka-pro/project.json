@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "title": "مغاسل الاناقة برو",
+  "views": [
+    {
+      "name": "نظرة عامة",
+      "state": {
+        "position": [
+          5.271409679078988,
+          13.178524197697472,
+          6.325691614894787
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "quaternion": [
+          -0.4558673088665591,
+          0.29773971391289683,
+          0.16504672962642544,
+          0.8223719575140249
+        ],
+        "mode": "orbit",
+        "fov": 42,
+        "appearance": "physical",
+        "aspect": 1.547212714893524,
+        "hidden": [
+          "n209",
+          "n210",
+          "n211",
+          "n212",
+          "n213"
+        ],
+        "clip": false,
+        "clipPercent": 55
+      }
+    }
+  ],
+  "state": {
+    "position": [
+      5.271409679078988,
+      13.178524197697472,
+      6.325691614894787
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ],
+    "quaternion": [
+      -0.4558673088665591,
+      0.29773971391289683,
+      0.16504672962642544,
+      0.8223719575140249
+    ],
+    "mode": "orbit",
+    "fov": 42,
+    "appearance": "physical",
+    "aspect": 1.547212714893524,
+    "hidden": [
+      "n209",
+      "n210",
+      "n211",
+      "n212",
+      "n213"
+    ],
+    "clip": false,
+    "clipPercent": 55
+  },
+  "enhancements": {
+    "version": 1,
+    "layers": {},
+    "environment": {
+      "preset": "day",
+      "altitude": 55,
+      "azimuth": 45,
+      "sunPower": 2.8,
+      "ambient": 1.4,
+      "exposure": 1,
+      "shadows": false,
+      "lights": false,
+      "ground": false
+    },
+    "navigation": {
+      "eyeHeight": 1.65,
+      "collision": true
+    },
+    "path": [],
+    "lights": []
+  },
+  "workflow": {
+    "version": 1,
+    "brief": {
+      "version": 1,
+      "projectName": "",
+      "targetEnvironment": "day"
+    },
+    "finishes": {}
+  },
+  "xrV09": {
+    "version": 1,
+    "preset": "daylight",
+    "exposure": 1.04,
+    "quality": "auto",
+    "hdri": null,
+    "background": false,
+    "fixtures": []
+  },
+  "clientDelivery": {
+    "layers": [
+      {
+        "id": "13869",
+        "name": "Layer0",
+        "visible": true,
+        "entityCount": 1123665
+      },
+      {
+        "id": "33660",
+        "name": "سقف",
+        "visible": false,
+        "entityCount": 17
+      },
+      {
+        "id": "1668355",
+        "name": "مكيف",
+        "visible": true,
+        "entityCount": 3
+      },
+      {
+        "id": "1668357",
+        "name": "08_Product",
+        "visible": true,
+        "entityCount": 1
+      },
+      {
+        "id": "1668359",
+        "name": "CADEIRAS",
+        "visible": true,
+        "entityCount": 22595
+      },
+      {
+        "id": "1668361",
+        "name": "نبات",
+        "visible": true,
+        "entityCount": 1
+      },
+      {
+        "id": "1749472",
+        "name": "بطانيات",
+        "visible": true,
+        "entityCount": 16
+      },
+      {
+        "id": "2686090",
+        "name": "طاولة عمل",
+        "visible": true,
+        "entityCount": 21
+      },
+      {
+        "id": "3618439",
+        "name": "ديكور",
+        "visible": true,
+        "entityCount": 28
+      },
+      {
+        "id": "10034102",
+        "name": "انارة",
+        "visible": false,
+        "entityCount": 1
+      }
+    ]
+  }
+}

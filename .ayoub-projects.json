@@ -33,6 +33,42 @@
         "decoders/draco/LICENSE.txt",
         "release.json"
       ]
+    },
+    "elanaka-pro": {
+      "title": "مغاسل الاناقة برو",
+      "updatedAt": "2026-11-17T15:38:49.185Z",
+      "releaseId": "54620b48-3433-4701-98de-05771dd6874d",
+      "files": [
+        "index.html",
+        ".nojekyll",
+        "project.json",
+        "report.json",
+        "README.txt",
+        "assets/client-preflight.js",
+        "assets/index-BiczBjbg.js",
+        "assets/index-BxBQdb0h.css",
+        "assets/workflow-v07.css",
+        "assets/ayoub-v09.css",
+        "assets/optimizer-panel.js",
+        "assets/client-white-label.js",
+        "assets/ayoub-v09.js",
+        "assets/xr-lighting-core.js",
+        "assets/hdr-parser.js",
+        "assets/photo3d-panel.css",
+        "assets/photo3d-panel.js",
+        "assets/publisher-panel.css",
+        "assets/publisher-panel.js",
+        "assets/client-presentation.css",
+        "assets/client-presentation.js",
+        "LICENSES.txt",
+        "models/model-000.bin",
+        "models/model-001.bin",
+        "model-manifest.json",
+        "decoders/draco/draco_wasm_wrapper.js",
+        "decoders/draco/draco_decoder.wasm",
+        "decoders/draco/LICENSE.txt",
+        "release.json"
+      ]
     }
   }
 }

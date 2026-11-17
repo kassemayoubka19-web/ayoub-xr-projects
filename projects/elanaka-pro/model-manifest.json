@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "bytes": 35578212,
+  "mime": "model/gltf-binary",
+  "parts": [
+    {
+      "path": "models/model-000.bin",
+      "bytes": 20971520,
+      "sha256": "dc8a6fabfbae8cd3f89fde27a4fee6beae578e9ee1189901a424eaba8aff7223"
+    },
+    {
+      "path": "models/model-001.bin",
+      "bytes": 14606692,
+      "sha256": "4feaaf8cc2c15a5ba592f7caa4d03d188cc1d502d510e3e5115653e1d0808490"
+    }
+  ]
+}
